@@ -1,0 +1,7 @@
+class TreNode(object):
+
+   def __init__(self, item=None, leftLink=None, rightLink=None):
+      self.item=item
+      self.leftLink=leftLink
+      self.rightLink=rightLink
+      return
